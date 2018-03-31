@@ -9,6 +9,7 @@ proc ChooseColor {bWidget} {
 #------------------------------------------------------------------------
 
 label .l
+set bChoose [button .b -text "Choose a color..." \
         -command "ChooseColor .b"]
 
 
